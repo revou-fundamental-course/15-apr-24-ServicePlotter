@@ -1,11 +1,237 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Mini Project for Assignment</title>
-</head>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SEFC - RevoU</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/portfolio.png">
+        <!-- Google Font-->
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+        <!-- Style -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
 <body>
-</body>
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 container-text">
+                    <!--<div class=""></div>-->
+                        <h1>Learn More, Earn More</h1>
+                        <h2>Bersama RevoU belajar SEFC lebih mendalam, memperoleh makin banyak.</h2>
+                        <a href="#features" class="btn-project">Lihat Project</a>
+                </div>
+                <div class="col-lg-6 hero-img">
+                    <img class="" src="assets/hero-img.png" alt="hero">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <main>
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 pe-5">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/qF1D8fBqhqM?list=RDCMUCJOIqOSZ7_2C_vgBBQiB6Uw"
+                                title="FCSE - Let&#39;s Explore Discord Fundamental Course Software Engineering!" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 ps-5">
+                        <div class="about-text">
+                            <strong class="title">Tentang SEFC</strong>
+                            <p>
+                                Pengalaman baru mendalami SEFC. Menata pondasi kuat melangkah maju. Bersama RevoU
+                                tak terasa 10 hari akan berlalu. <em>Mini-Project</em> konversi suhu 
+                                sebagai pendalaman ilmu.
+                            </p>
+                            <p>
+                                Displin waktu untuk biniku dan RevoU. Semoga biniku tidak manyun melulu.
+                                Berharap kelak bisa bergabung di <em>Full Stack Programme</em> RevoU. 
+                                Sudahlah yauu! Lalu bagaimana denganmu?
+                            </p>
+                            <p>
+                                Suka halaman ini? Dukung memperoleh beasiswa penuh di RevoU.
+                            </p>
+                        </div>
+                        <div class="about-button mt-4">
+                            <a href="#voting" class="btn-project mb-2 me-3">Dukung</a>
+                            <a href="#voting" class="btn-project">Lihat Dukungan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="voting" class="voting section-padding">
+            <div class="container">
+                <strong class="title text-center" style="display: block;">Dukungan</strong>
+                <div class="row" style="padding: 50px;">
+                    <div class="col-lg-6 col-6 border-bottom py-2">
+                        <strong class="voting-numbers">99%</strong>
+                        <p class="voting-text">Suara Mendukung</p>
+                    </div>
+
+                    <div class="col-lg-6 col-6 border-start border-bottom ps-5 py-2">
+                        <strong class="voting-numbers">1%</strong>
+                        <p class="voting-text">Belum Bersuara</p>
+                    </div>
+
+                    <div class="col-lg-6 col-6 pt-4">
+                        <strong class="voting-numbers">20+</strong>
+                        <p class="voting-text">Asal Kota Pendukung</p>
+                    </div>
+
+                    <div class="col-lg-6 col-6 border-start ps-5 pt-4">
+                        <strong class="voting-numbers">300+</strong>
+                        <p class="voting-text">Pendukung</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="features" class=" section-padding">
+            <div class="container">
+                <strong class="title text-center" style="display: block;">Features</strong>
+                <div class="row" style="padding: 50px;">
+                        <div class="col-lg-6 col-12 py-2 pe-5 text-end">
+                            <strong class="features-numbers">Website</strong>
+                            <p>Clean. Responsive. Tanpa menu bar.</p>
+                            <p>
+                                Struktur halaman menggunakan tag <code>html</code> utama : <code>head</code>, <code>body</code>,
+                                <code>section</code>, <code>main</code>, <code>footer</code>.
+                            </p>
+                        </div>
+                        
+                        <div class="col-lg-6 col-12 mini-project border-start py-2 ps-5">
+                            <strong class="features-numbers">Mini-Project</strong>
+                            <p>Menggunakan <em>Basic JavaScript</em> mengkonversi suhu &deg;C ke &deg;F dan sebaliknya.</p>
+                            <p>
+                                Hanya 1-2 langkah. Memasukkan nilai <strong>tervalidasi</strong>, 
+                                dan klik mode konversi untuk menampilkan hasil.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mini-project" class="project section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="convertion-thumb">
+                            <div class="convertion-title">
+                                <h4 class="text-center my-auto">&deg;
+                                    <span class="title-unit-1">C</span> &#8644; &deg;
+                                    <span class="title-unit-2 me-3">F,</span>Conversion
+                                </h4>
+                                <!--&#21C5;-->
+                            </div>
+        
+                            <div class="convertion-body">
+                                <div class="row">
+                                    <div class="col-lg-5 col-12 img">
+                                        <img class="img-fluid mx-auto" src="assets/temperature.png" 
+                                          onclick="changeConversion()" alt="temperatur icon">
+                                    </div>
+
+                                    <div class="col-lg-7 col-12">
+                                        <div class="row">
+                                            <div class="conversion-input">
+                                                <div class="col-lg-12 col-12 text-center">
+                                                    <input id="in-deg" class="input-control col-lg-5 col-5" type="text" value="0" 
+                                                    onkeyup="convertTemp()" onblur="convertTemp()">
+
+                                                    <label class="col-lg-7 col-7 col-input-label" for="in-deg">
+                                                        <span class="ms-3">&deg;</span>
+                                                        <span class="input-unit">Celcius</span>
+                                                    </label>
+                                                </div>
+                                                <div class="invalid-feedback">Hanya angka saja!</div>
+                                            </div></div>
+                                    
+                                        <div class="row conversion-result">
+                                            <div class="conversion-degree text-center col-lg-12 col-12" 
+                                              style="border-top: 1px solid var(--border-color);">
+                                                <strong class="conversion-val me-2">--</strong>
+                                                <p class="conversion-unit-text">
+                                                    &deg;<span class="conversion-unit">Fahrenheit</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-6 col-12">
+                        <div class="how-to-use">
+                            <div class="row">
+                                <div class="col-lg-12 col-12 py-2">
+                                    <strong class="">How to use?</strong>
+                                    <p>
+                                        Sangat mudah. Masukkan nilai, otomatis mengkonversi  
+                                        suhu &deg;<span class="text-unit-1">C</span> menjadi
+                                        &deg;<span class="text-unit-2">F</span>.
+                                    </p>
+                                    
+                                    <p>
+                                        Tekan <img class="ms-1 me-1" src="assets/temperature.png" width="25px" height="25px">
+                                        untuk menkonversi sebaliknya. Selamat mencoba!
+                                    </p>
+                                </div>
+        
+                                <div class="col-lg-12 col-12 py-2">
+                                    <strong class="formula-text">Formula</strong>
+                                    <p>Menggunakan:
+                                        <span class="ms-2 text-center ctf">
+                                            ( S<sub>(&deg;C)</sub> x 9/5 ) + 32 = S<sub>(&deg;F)</sub>
+                                        </span>
+                                        <span class="ms-2 text-center ftc">
+                                            ( S<sub>(&deg;F)</sub> - 32 ) x 5/9 = S<sub>(&deg;C)</sub>
+                                        </span>
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+        <section id="join" class="join section-padding">
+            <div class="container">
+                <div class="join-text text-center">
+                    <p>Bangun karirmu, peluang besar di depan mata!</p>
+                    <a class="btn-project mt-3" href="https://rebrand.ly/daftar-full-SE">Ayo Gabung</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer" class="site-footer">
+        <div class="container">
+            <div class="row">            
+                <div class="col-lg-12 col-12">
+                    <div class="copyright-text-wrap">
+                        <p class="mb-0">
+                            <span class="copyright-text">
+                                Copyright &copy; 2024 <a href="https://Revou.co" target="_blank">RevoU</a> - SEFC. 
+                                All rights reserved.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Js -->
+    <script src="js/main.js"></script>
+</body>
 </html>
