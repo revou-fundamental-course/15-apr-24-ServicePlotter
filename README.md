@@ -21,7 +21,7 @@ Contoh membangun **website clean & responsive** untuk pemula. Menggunakan HTML, 
 
 ## Source Code & Demo
 1. Code :[Download](https://github.com/revou-fundamental-course/15-apr-24-ServicePlotter)
-2. Demo : [Demo](https://serviceplotter.github.io)
+2. Demo : [Demo-1](https://serviceplotter.github.io), [Demo-2](https://revou-fundamental-course.github.io/15-apr-24-ServicePlotter/)
 
 
 
